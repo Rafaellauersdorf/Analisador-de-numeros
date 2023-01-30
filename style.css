@@ -5,7 +5,7 @@ body {
     font: normal 15pt Arial;
 }
 header {
-    color: white;
+    color: rgb(0, 0, 2);
     text-align: center;
 }
 
@@ -20,6 +20,18 @@ section {
 
 #flista {
     width: 150px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+#fnum {
+    background-color: rgba(0, 255, 255, 0.274);
+    border-radius: 7px;
+}
+
+body input {
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: bolder;
 }
 
 footer {
